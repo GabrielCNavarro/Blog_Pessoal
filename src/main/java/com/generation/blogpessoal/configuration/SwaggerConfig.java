@@ -32,8 +32,7 @@ public class SwaggerConfig {
             .externalDocs(new ExternalDocumentation()
                 .description("Github")
                 .url("https://github.com/GabrielCNavarro"));
-    }
-
+}
 
 	@Bean
 	OpenApiCustomizer customerGlobalHeaderOpenApiCustomiser() {
